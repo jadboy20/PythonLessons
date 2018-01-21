@@ -1,0 +1,19 @@
+# This is the Git Ignore File. It contains all the types of files that you want Git to not track. 
+# To igore a particular file, you can type that file in like below.
+test.txt
+
+# If you want to ignore every file that has the extension ".txt" then you put an * first. For example. 
+*.txt
+# Now every .txt file will be ignored. 
+
+
+# If you want to make a comment, you use the "#" character before what you write.
+
+# This is a comment!!!!
+
+# If you want to NOT ignore something, just preceed it with a "!". 
+# In this example we do not want to ignore anything that is python related. 
+!*.py
+!*.pyc
+
+# This is all that is needed for now. 
