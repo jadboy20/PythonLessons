@@ -38,7 +38,3 @@ if __name__ == "__main__":
 	import sys
 	main()
 	sys.exit()
-
-# 12 * 12 
-answer = 144
-print (answer)

@@ -31,8 +31,12 @@ def main():
 	
 	# Example 2: 
 	answer = 2 * 10 / 4
+	
+	answer = 10.0000000052 - 10.0000000051
+	print("The answer is: " + str(answer))
 	return 0
 	
 if __name__ == "__main__":
 	import sys
+	main()
 	sys.exit()

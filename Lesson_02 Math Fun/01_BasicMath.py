@@ -51,15 +51,22 @@ def main():
 	print(answer)
 	
 	# We can also combine them all!
-	answer = 5 + 3 - 2 * 3 / 2
+	answer = 5 + 3 - 3
 	print(answer)
 	
 	# Try make your own ones and print them! VV
 	# Write your code under here...:a
+	answer = 6 + 5 * 1 - 1 / 5 
+	print(answer)
 	
+	answer = 5 + 5 * 6 / 5 - 2
+	print(answer)
 	
+	answer = 2 ** 5
+	print(answer)
 	return 0
 	
 if __name__ == "__main__":
 	import sys
+	main()
 	sys.exit()
