@@ -13,9 +13,11 @@ def main(args):
 	print("Hello, world!")
 	
 	# Now write your own message under here VV
+	print("How are you?") 
 	
+	print("Good,Thanks")
 	
-    return 0
+ 
 
 if __name__ == '__main__':
     import sys

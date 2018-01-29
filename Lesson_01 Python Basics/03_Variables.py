@@ -39,6 +39,8 @@ def main():
 	# You can also copy the contents of a variable to another variable.
 	original = 5
 	varcopy = original
+	original = 3
+	varcopy = original
 	print(original)
 	print(varcopy)
 	
@@ -59,4 +61,5 @@ def main():
 	
 if __name__ == "__main__":
 	import sys
+	main()
 	sys.exit()

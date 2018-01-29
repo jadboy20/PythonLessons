@@ -19,10 +19,13 @@ def main():
 	# print("To get me to run, remove the hash from infront of me!!!")
 	
 	# Now make your own comments! VV
-	
+
+	# This means hi, how are  you?
+	print("cao kakosi?")
 	return 0
 	
 	
 if __name__ == "__main__":
 	import sys
+	main()
 	sys.exit()

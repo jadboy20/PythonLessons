@@ -20,16 +20,25 @@ def main():
 	
 	# Now you do it 3 times: 
 	# First Question:
-	
-	
+	# 5 + 10
+	answer = 15
+	print(answer)
 	# Second Question:
-	
-	
+	#6 * 6
+	answer = 36
+	print (answer)
 	# Third Question:
 	
-	
+	# 12 * 12
+	answer = 144
+	print (answer)
 	return 0
 	
 if __name__ == "__main__":
 	import sys
+	main()
 	sys.exit()
+
+# 12 * 12 
+answer = 144
+print (answer)
