@@ -5,35 +5,9 @@
 # Notice the def?
 
 def main():
+
+
 	
-	# Did you know "print" is a function.
-	print("I am a function!")
-	
-	# "Input" is a function too!
-	i = input("I'm a function?")
-	
-	# You can make youre own functions. 
-	result = add(2,3)
-	print(result)
-	
-	# You use functions to perform tasks that you will use many times. 
-	# For instance, maybe you want to print "Hello" 20 times. 
-	# Instead of writing print("hello") print("hello").... you could make a function
-	# called ph() which prints hello. Lets have a look!
-	ph()
-	ph()
-	ph()
-	ph()
-	ph()
-	ph()
-	ph()
-	ph()
-	ph()
-	ph()
-	
-	# See how much writing we saved??
-	
-	# Try your own function below. 
 	
 	return 0
 		
@@ -42,6 +16,34 @@ def add(a, b):
 	
 def ph():
 	print("Hello")
+	
+def blahblahblah(first , second):
+	return first * second
+	
+def reply():
+	name = input("Whats your name? ")
+	print("Hello " + str(name))
+	
+	
+def aboutMe():
+	# Your code goes here:
+	
+	firstname = input("What is your first name? ")
+	lastname = input("What is your last name? ")
+	age = input("What is your age? ")
+	haircolour = input("What is your hair colour? ")
+	shoes = input("What is your brand of shoes? ")
+	eyecolour = input("What is your eye colour? ")
+	dogsname = input("What is your dogs name? ")
+	
+	print("My name is " + str(firstname) + " " + str(lastname) + " and I am " + str(age) + " years old.")
+	print("I have " + str(haircolour) + " hair and have " + str(eyecolour) + " eyes.")
+	print("I have " + str(shoes) + " shoes and my dogs name is " + str(dogsname))
+	
+	
+def calculateAreaOfSquare(Width , Length):
+	return Width * Length
+	
 	
 if __name__ == "__main__":
 	import sys

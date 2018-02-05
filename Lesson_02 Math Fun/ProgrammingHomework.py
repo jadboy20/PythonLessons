@@ -5,7 +5,7 @@ def main():
 		
 	firstname = input("What is your name?")
 	lastname = input("What is your last name?")
-	age = input("What is your name?")
+	age = input("What is your age?")
 	haircolour = input("What is your haircolour?")
 	eyecolour = input("What is your eyecolour?")
 	shoes = input("What is the brand of your shoe")
@@ -17,6 +17,13 @@ def main():
 	print (     " i am " + str(age) + " ,and my haircolour is " + str(haircolour)  )
 	print (" ,my eyecolour is " + str(eyecolour) + " ,my brand of shoes are " + str(shoes) )
 	print (" ,dog's name is" + str(dogsname) + " and my personality is" + str(personality) ) 
+	
+	
+	
+	
+	 
+	
+	
 	
 	return 0
 
