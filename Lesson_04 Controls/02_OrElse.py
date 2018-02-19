@@ -32,7 +32,7 @@ def main():
 	
 	if True:
 		print("This is true!")
-	else
+	else:
 		print("This is not true!")
 		
 	# Which one is going to the screen?
@@ -48,7 +48,9 @@ def main():
 	if True:
 		# Write True code in here. 
 	else:
-		# Write False Code in here. 
+		# Write False Code in here
+		
+	 
 	
 	
 if __name__ == "__main__":

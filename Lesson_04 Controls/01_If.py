@@ -35,6 +35,7 @@ def main():
 	# code in there. 
 	if True:
 		# Write your code here:
+		print("Yoskies m8 oh")
 	
 	
 if __name__ == "__main__":
