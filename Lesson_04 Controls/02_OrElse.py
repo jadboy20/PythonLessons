@@ -44,14 +44,7 @@ def main():
 		
 	# Which one is going to the screen?
 	
-	# Try writing your own If Else code 
-	if True:
-		# Write True code in here. 
-	else:
-		# Write False Code in here
-		
-	 
-	
+
 	
 if __name__ == "__main__":
 	import sys

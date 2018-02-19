@@ -8,7 +8,7 @@ def main():
 	age = input("What is your age?")
 	haircolour = input("What is your haircolour?")
 	eyecolour = input("What is your eyecolour?")
-	shoes = input("What is the brand of your shoe")
+	shoes = input("What is the brand of your shoes?")
 	dogsname = input ("What is the name of your dog?")
 	#This is a bonus one:)
 	personality = input ("What is your personality?")

@@ -17,3 +17,5 @@ test.txt
 !*.pyc
 
 # This is all that is needed for now. 
+
+*.bat
