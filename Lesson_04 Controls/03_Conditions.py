@@ -49,11 +49,24 @@ def main():
 		print("This is false")
 	
 	# Try your own below. 
-	
+	if 5 == 7:
+		print("This is true!")
+	else:
+		print("This is false...")
 	# Try write a function that simplifies the above stuff...
 	# Call the function "TrueOrFalse()" where the argument is the 
 	# Condition...
+	TrueOrFalse(1==1)
+	TrueOrFalse(2==3)
+	TrueOrFalse(5<8)
+
 	
+		
+def TrueOrFalse(Condition):
+	if(Condition):
+		print("That is correct!")
+	else:
+		print("That is incorrect!")
 	
 if __name__ == "__main__":
 	import sys

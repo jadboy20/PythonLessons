@@ -33,10 +33,13 @@ def main():
 		
 	# Try you're own "if true:" statement, but write your own print 
 	# code in there. 
+	
+	
 	if True:
-		# Write your code here:
+		print("Hey there!")
 	
-	
+	if True: 
+		print("Sorry we are occupied!")
 if __name__ == "__main__":
 	import sys
 	main()

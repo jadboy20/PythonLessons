@@ -32,7 +32,7 @@ def main():
 	
 	if True:
 		print("This is true!")
-	else
+	else:
 		print("This is not true!")
 		
 	# Which one is going to the screen?
@@ -45,10 +45,10 @@ def main():
 	# Which one is going to the screen?
 	
 	# Try writing your own If Else code 
-	if True:
-		# Write True code in here. 
+	if False:
+		print("Password is correct.")
 	else:
-		# Write False Code in here. 
+		print("Password is incorrect!")
 	
 	
 if __name__ == "__main__":
