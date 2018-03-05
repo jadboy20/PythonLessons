@@ -11,10 +11,14 @@ def main():
 	# They must get BOTH correct to go on. 
 	
 	input_username = input("Enter your username: ")
-	input_password = input("Enter your password: ")
+
 	
 	if str(input_username) == USERNAME:
 		print("User name is correct!!")
+		
+		# I put user pass word here!
+		input_password = input("Enter your password: ")
+		
 		if str(input_password) == PASSWORD:
 			print("Password is correct!!")
 			print("Welcome Jadboy20!")
